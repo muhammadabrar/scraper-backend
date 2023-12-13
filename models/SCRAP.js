@@ -14,6 +14,6 @@ const SCRAPSchema = new Schema(
   }
 );
 
-const SCRAP = mongoose.model("SCRAP", SCRAPSchema);
+const SCRAP = mongoose.model("NewList", SCRAPSchema);
 
 module.exports = SCRAP;
